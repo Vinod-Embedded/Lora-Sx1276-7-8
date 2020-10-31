@@ -15,7 +15,7 @@ Uncomment below line in the main.c file
 
 #define RX
 
-Buid the code and Load in to the second board.
+Then Buid the code and Load in to the second board.
 
 Finally can observe the text transmitted by device1, In device2 received data is transmitted to the uart1.
 Connect the uart port of two devices with laptop to see serial prints of the two devices.

@@ -22,3 +22,7 @@ Connect the uart port of two devices with laptop to see serial prints of the two
 
 Dowload files from the below link.
 https://drive.google.com/drive/folders/1SBMDImwhij1O5k5U2pt1e0vbbq6LR9IR?usp=sharing
+
+
+Detailed explanation in below link.
+https://vinodembedded.wordpress.com/2020/11/07/loralibrary-stm32-keil/

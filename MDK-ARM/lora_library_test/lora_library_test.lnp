@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"lora_library_test\startup_stm32f103xb.o"
+"lora_library_test\main.o"
+"lora_library_test\stm32f1xx_it.o"
+"lora_library_test\stm32f1xx_hal_msp.o"
+"lora_library_test\lora.o"
+"lora_library_test\stm32f1xx_hal_gpio_ex.o"
+"lora_library_test\stm32f1xx_hal_spi.o"
+"lora_library_test\stm32f1xx_hal.o"
+"lora_library_test\stm32f1xx_hal_rcc.o"
+"lora_library_test\stm32f1xx_hal_rcc_ex.o"
+"lora_library_test\stm32f1xx_hal_gpio.o"
+"lora_library_test\stm32f1xx_hal_dma.o"
+"lora_library_test\stm32f1xx_hal_cortex.o"
+"lora_library_test\stm32f1xx_hal_pwr.o"
+"lora_library_test\stm32f1xx_hal_flash.o"
+"lora_library_test\stm32f1xx_hal_flash_ex.o"
+"lora_library_test\stm32f1xx_hal_exti.o"
+"lora_library_test\stm32f1xx_hal_tim.o"
+"lora_library_test\stm32f1xx_hal_tim_ex.o"
+"lora_library_test\stm32f1xx_hal_uart.o"
+"lora_library_test\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "lora_library_test\lora_library_test.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "lora_library_test.map" -o lora_library_test\lora_library_test.axf

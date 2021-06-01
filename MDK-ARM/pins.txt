@@ -1,0 +1,21 @@
+/* This Driver is suitable for SX1276/7/8 Lora module
+ * Author: Vinod Kumar from Vinod Embedded
+ * Goto: vinodembedded.wordpress.com for detailed explanation of the 
+ * lora driver
+ */
+ 
+ Pin Configuration: 
+--------------------------------------------------
+      SX1276/7/8        |	STM32F103C
+--------------------------------------------------
+		NSS	|	  GPIO A4 
+		MOSI	|	  GPIO A7
+		MISO	|	  GPIO A6
+		SCK	|	  GPIO A5
+		RESET	|	  GPIO B0
+--------------------------------------------------
+
+/*   End of File
+ * Author  : Vinod Kumar
+ * Website : vinodembedded.wordpress.com
+ */
